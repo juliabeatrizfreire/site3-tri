@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 	<header>
-		<img src="formiga.png" alt="Logo" class="logo">
+		<img src="formiga.jpg" alt="Logo" class="logo">
 		<nav>
+			<ul>
+				<li><a href="#">Início</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
 			<form>
 				<input type="search" placeholder="Pesquisar...">
 				<button type="submit">Buscar</button>
@@ -18,16 +22,35 @@
 		</nav>
 	</header>
 	<main>
-		<div class="imagens">
-			<img src="imagem1.jpg" alt="Imagem 1" class="imagem" onclick="location.href='pagina1.html'">
-			<img src="imagem2.jpg" alt="Imagem 2" class="imagem" onclick="location.href='pagina2.html'">
-			<img src="imagem3.jpg" alt="Imagem 3" class="imagem" onclick="location.href='pagina3.html'">
-		</div>
+		<section class="banner">
+			<h1>Bem-vindo à Faculdade!</h1>
+			<p>Seja bem-vindo ao nosso site.</p>
+		</section>
+		<section class="imagens">
+			<img src="progamador.jpg" alt="Imagem 1" class="imagem" onclick="location.href='pagina1.html'">
+			<img src="internet.webp" alt="Imagem 2" class="imagem" onclick="location.href='pagina2.html'">
+			<img src="codigos.jpeg" alt="Imagem 3" class="imagem" onclick="location.href='pagina3.html'">
+		</section>
+		<section class="noticias">
+			<h2>Notícias</h2>
+			<ul>
+				<li><a href="#">Notícia 1</a></li>
+				<li><a href="#">Notícia 2</a></li>
+				<li><a href="#">Notícia 3</a></li>
+			</ul>
+		</section>
+		<section class="eventos">
+			<h2>Eventos</h2>
+			<ul>
+				<li><a href="#">Evento 1</a></li>
+				<li><a href="#">Evento 2</a></li>
+				<li><a href="#">Evento 3</a></li>
+			</ul>
+		</section>
 	</main>
 	<footer>
 		<p>&copy; 2023 Faculdade</p>
 	</footer>
-	<script src="script.js"></script>
 
 </body>
 </html>
